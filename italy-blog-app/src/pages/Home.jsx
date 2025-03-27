@@ -18,6 +18,6 @@ function Home() {
       </section>
     </>
   );
-}
+};
 //can't use class
 export default Home; //when export, allows to import into another file to utilize

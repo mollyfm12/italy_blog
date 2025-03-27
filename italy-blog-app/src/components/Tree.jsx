@@ -7,6 +7,6 @@ function Tree(props) {
             <p>{props.description}</p>
         </section>
     );
-}
+};
 
 export default Tree;
