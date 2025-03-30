@@ -4,7 +4,8 @@ import "./Navigation"
 function Header() {
     return(
     <header>
-        <h1>title of site</h1>
+        
+        <h1>A Study Abroad Scrapbook</h1>
         <Navigation />
     </header>
     );

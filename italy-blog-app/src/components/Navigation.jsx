@@ -7,8 +7,10 @@ function Navigation() {
         <ul>
             <li>
                 <Link to="/"> Home </Link>
-                <Link to="/about"> About </Link>
-                <Link to="/blog"> Italy </Link>
+                <Link to="/Florence"> Florence </Link>
+                <Link to="/Italy"> Around Italy </Link>
+                <Link to="/Euro"> Around Europe & Africa </Link>
+                <Link to="/FAQ"> FAQ </Link>
             </li>
         </ul>
     </nav>
