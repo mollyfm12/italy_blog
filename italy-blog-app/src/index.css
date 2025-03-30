@@ -1,0 +1,5 @@
+@media screen and (min-width: 368) {
+  .columns {
+    display: flex;
+  }
+}
