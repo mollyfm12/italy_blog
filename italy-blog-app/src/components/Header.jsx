@@ -1,5 +1,7 @@
 import "./css/Header.css";
-import "./Navigation"
+import Navigation from './Navigation';
+import React from 'react';
+
 
 function Header() {
     return(

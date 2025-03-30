@@ -1,5 +1,7 @@
 import './css/Home.css'
 import Tree from '../components/Tree';
+import React from 'react';
+
 
 function Home() {
   return (
