@@ -1,0 +1,22 @@
+{
+  "files": {
+    "main.css": "/italy_blog/static/css/main.1f5990a0.chunk.css",
+    "main.js": "/italy_blog/static/js/main.7c434dc0.chunk.js",
+    "main.js.map": "/italy_blog/static/js/main.7c434dc0.chunk.js.map",
+    "runtime-main.js": "/italy_blog/static/js/runtime-main.ffcbf4f7.js",
+    "runtime-main.js.map": "/italy_blog/static/js/runtime-main.ffcbf4f7.js.map",
+    "static/js/2.a234bd9c.chunk.js": "/italy_blog/static/js/2.a234bd9c.chunk.js",
+    "static/js/2.a234bd9c.chunk.js.map": "/italy_blog/static/js/2.a234bd9c.chunk.js.map",
+    "index.html": "/italy_blog/index.html",
+    "precache-manifest.d0bb7cc86a1f1e611e5052e16634caed.js": "/italy_blog/precache-manifest.d0bb7cc86a1f1e611e5052e16634caed.js",
+    "service-worker.js": "/italy_blog/service-worker.js",
+    "static/css/main.1f5990a0.chunk.css.map": "/italy_blog/static/css/main.1f5990a0.chunk.css.map",
+    "static/js/2.a234bd9c.chunk.js.LICENSE.txt": "/italy_blog/static/js/2.a234bd9c.chunk.js.LICENSE.txt"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.ffcbf4f7.js",
+    "static/js/2.a234bd9c.chunk.js",
+    "static/css/main.1f5990a0.chunk.css",
+    "static/js/main.7c434dc0.chunk.js"
+  ]
+}
