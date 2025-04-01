@@ -1,4 +1,5 @@
 import './css/Home.css';
+import '../components/Slideshow.jsx'
 import duomo from '../images/index-imgs/duomo.jpg';
 import main from '../images/index-imgs/main.png';
 import capp from '../images/index-imgs/capp.png';

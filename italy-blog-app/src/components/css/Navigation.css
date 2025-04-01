@@ -25,6 +25,11 @@
   #nav-items a:hover {
     color: var(--nav-hover-color);
   }
+
+  #nav-items .hide-small {
+  display: none;
+  }
+
   
   /* MOBILE: vertical nav */
   @media only screen and (max-width: 767px) {
@@ -34,3 +39,11 @@
     }
   }
   
+  @media only screen and (min-width: 767px) {
+    #main-nav-button {
+      display: none;
+    }
+    .hide-small {
+      display:flex;
+    }
+  }
