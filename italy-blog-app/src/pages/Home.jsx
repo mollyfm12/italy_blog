@@ -43,6 +43,7 @@ function Home() {
         <div className="image-column">
           <img src={main} alt="Main collage" />
         </div>
+
       </section>
       <section id="gallery">
         <img src={capp} alt="Capp" className="gallery-image" />
