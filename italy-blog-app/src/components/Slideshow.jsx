@@ -1,5 +1,6 @@
 import "./css/Slideshow.css";
-import React from 'react';
+import React, { useState } from 'react';
+
 
 
 const Slideshow = () => {
