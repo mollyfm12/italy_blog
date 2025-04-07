@@ -23,16 +23,16 @@ const Slideshow = () => {
         }
             */
         
-        setImageIndex(imageIndex == images.length -1? 0: imageIndex+1);
+        setImageIndex(imageIndex === images.length -1? 0: imageIndex+1);
     }
 
     const showPreviousImage = () => {
-        setImageIndex(imageIndex == 0? images.length-1: imageIndex-1);
+        setImageIndex(imageIndex === 0? images.length-1: imageIndex-1);
     }
 
     return (
         <section className="slideshow">
-            <img src = {images[imageIndex]} />
+            <img src = {images[imageIndex]} alt=""/>
             <p>
                 <button onClick={showNextImage}>Next</button>
                 <button onClick={showPreviousImage}>Previous</button>

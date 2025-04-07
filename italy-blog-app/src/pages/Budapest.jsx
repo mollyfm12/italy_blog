@@ -14,7 +14,7 @@ function Budapest() {
   useEffect(() => {
     const fetchBuda = async () => {
       try {
-        const res = await fetch('https://mollyfm12.github.io/csce242/json/budapest.json');
+        const res = await fetch('https://blog-server-obnj.onrender.com/api/buda');
         const data = await res.json();
         setBudaData(data);
       } catch (error) {

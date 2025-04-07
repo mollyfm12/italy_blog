@@ -9,12 +9,12 @@ function Navigation() {
 
   const toggleMenu = () => {
     setMenuOpen(!menuOpen);
-  }
+  };
 
   return (
     <nav id="header-nav">
-      <button onClick={toggleMenu}>...</button>
-      <ul className={menuOpen?"":"hide-small"}id="nav-items">
+      <button id="nav-toggle" onClick={toggleMenu}>☰</button>
+      <ul className={menuOpen?'show' : ''} id="nav-items">
         <li><Link to="/">Home</Link></li>
         <li><Link to="/florence">Florence</Link></li>
         <li><Link to="/italy">Around Italy</Link></li>
