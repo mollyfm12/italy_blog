@@ -1,8 +1,3 @@
-@media screen and (min-width: 368) {
-  .columns {
-    display: flex;
-  }
-}
 /* ========== Root Color Variables ========== */
 :root {
   --main-background-color: rgba(244, 250, 220, 0.884);
@@ -18,6 +13,12 @@
   --italy-background-color: rgb(150, 150, 150);
   --gallery-background-color: rgb(149, 174, 154);
   --button-hover: cornflowerblue;
+}
+
+@media screen and (min-width: 368) {
+  .columns {
+    display: flex;
+  }
 }
 
 /* ========== Base Page Structure ========== */

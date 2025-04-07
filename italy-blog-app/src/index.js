@@ -11,7 +11,7 @@ import Euro from './pages/Euro';
 import Budapest from './pages/Budapest';
 import FAQ from './pages/FAQ';
 import Nopage from './pages/Nopage';
-import './index.css';
+
 
 function App() {
   return (

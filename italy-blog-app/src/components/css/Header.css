@@ -3,7 +3,7 @@ header {
     align-items: center;
     justify-content: flex-start;
     padding: 10px 20px;
-    background-color: var(--main-background-color); /* optional */
+    background-color: var(--main-background-color); 
   }
   
   header img {
