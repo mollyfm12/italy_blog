@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 #main-nav ul {
     display: flex;
 }
@@ -11,3 +12,54 @@
 #main-nav li a {
     text-decoration: none;
 }
+=======
+#header-nav {
+    width: 100%;
+    background-color: var(--nav-background-color);
+  }
+  
+  #nav-items {
+    display: flex;
+    justify-content: center;
+    padding-left: 0;
+    margin: 0;
+    list-style-type: none;
+    flex-wrap: wrap;
+  }
+  
+  #nav-items li {
+    padding: 10px 15px;
+  }
+  
+  #nav-items a {
+    color: var(--nav-li-color);
+    text-decoration: none;
+    font-weight: bold;
+  }
+  
+  #nav-items a:hover {
+    color: var(--nav-hover-color);
+  }
+
+  #nav-items .hide-small {
+  display: none;
+  }
+
+  
+  /* MOBILE: vertical nav */
+  @media only screen and (max-width: 767px) {
+    #nav-items {
+      flex-direction: column;
+      align-items: center;
+    }
+  }
+  
+  @media only screen and (min-width: 767px) {
+    #main-nav-button {
+      display: none;
+    }
+    .hide-small {
+      display:flex;
+    }
+  }
+>>>>>>> temp-branch

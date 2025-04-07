@@ -1,21 +1,28 @@
+import React from 'react';
+import { Link } from 'react-router-dom';
+import {useState} from 'react';
 import './css/Navigation.css';
-import {Outlet, Link} from "react-router-dom";
 
 function Navigation() {
-    return(
-    <nav id="main-nav">
-        <ul>
-            <li>
-                <Link to="/"> Home </Link>
-                <Link to="/Florence"> Florence </Link>
-                <Link to="/Italy"> Around Italy </Link>
-                <Link to="/Euro"> Around Europe & Africa </Link>
-                <Link to="/FAQ"> FAQ </Link>
-            </li>
-        </ul>
-    </nav>
 
-    );
-};
+  const [menuOpen, setMenuOpen] = useState(false);
+
+  const toggleMenu = () => {
+    setMenuOpen(!menuOpen);
+  }
+
+  return (
+    <nav id="header-nav">
+      <button onClick={toggleMenu}>...</button>
+      <ul className={menuOpen?"":"hide-small"}id="nav-items">
+        <li><Link to="/">Home</Link></li>
+        <li><Link to="/florence">Florence</Link></li>
+        <li><Link to="/italy">Around Italy</Link></li>
+        <li><Link to="/euro">Around Europe & Africa</Link></li>
+        <li><Link to="/faq">FAQ</Link></li>
+      </ul>
+    </nav>
+  );
+}
 
 export default Navigation;

@@ -1,0 +1,25 @@
+.buda-item {
+    display: flex;
+    align-items: center;
+    gap: 15px;
+    margin: 20px 0;
+    padding: 10px;
+    border-radius: 6px;
+    background-color: var(--history-background-color);
+    max-width: 800px;
+  }
+  
+  .buda-item img {
+    max-width: 150px;
+    height: auto;
+    border-radius: 8px;
+  }
+  
+  .buda-item h3 {
+    margin: 0;
+  }
+  
+  .buda-item p {
+    margin: 5px 0;
+  }
+  
